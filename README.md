@@ -43,6 +43,17 @@ To run the code, simply open the `main.ipynb` Jupyter notebook and execute the c
 
 Contributions are welcome! Please read the contributing guidelines before making any changes.
 
+
+## 📚 Citing
+```bib
+@software{Hamedi_PyTorch-Project-Template,
+author = {Aydin Hamedi},
+license = {MIT},
+title = {PyTorch-Project-Template},
+url = {https://github.com/Aydinhamedi/PyTorch-Project-Template}
+}
+```
+
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 <pre>
