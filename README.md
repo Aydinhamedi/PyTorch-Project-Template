@@ -5,13 +5,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
-This repository provides a template for image classification projects using PyTorch. It includes a Jupyter notebook (`Main.ipynb`) that contains the main code for the project.
+This repository provides a template for image classification projects using PyTorch. It includes a Jupyter notebook (`main.ipynb`) that contains the main code for the project.
 
 ## Getting Started
 
 1. Clone this repository to your local machine.
 2. Install the required dependencies listed in `requirements.txt`.
-3. Open the `Main.ipynb` Jupyter notebook and follow the instructions.
+3. Open the `main.ipynb` Jupyter notebook and follow the instructions.
 
 ## Data Organization
 
@@ -37,7 +37,7 @@ Each folder contains a README file that explains the contents of the folder. Ple
 
 ## Running the Code
 
-To run the code, simply open the `Main.ipynb` Jupyter notebook and execute the cells in order.
+To run the code, simply open the `main.ipynb` Jupyter notebook and execute the cells in order.
 
 ## Contributing
 

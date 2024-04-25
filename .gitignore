@@ -1,15 +1,39 @@
-/ruff_format_results.txt
+# Ignore results from static analysis tools
+/ruff_format_results.txt  
 /ruff_check_results.txt
+
+# Ignore trained model files
 /model.pth
+
+# Ignore IDE config
 /.vscode
 /.venv
+
+# Ignore model training data
 /models
 /samples/*
+
+# Ignore compiled Python files
 /Utils/__pycache__
+
+# Ignore archived data
 /archive.zip
-/garbage_classification
+
+# Ignore specific project folder
+/garbage_classification 
+
+# Ignore GPU info
 /GPU_Info.txt
+
+# Ignore database cache and data
 /Database/cache
 /Database/Data
-/logs/tensorboard
+
+# Ignore TensorBoard logs
+/logs/tensorboard  
+
+# Ignore cached weights
 /cache/weights
+
+# Ignore export script
+/Export.py
