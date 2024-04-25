@@ -5,38 +5,46 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
-Welcome to the repository of our garbage classification project! We have developed a model using PyTorch and EfficientNet-B4 that classifies garbage into twelve different types. The model has achieved an impressive accuracy of **98.45%**.
+This repository provides a template for image classification projects using PyTorch. It includes a Jupyter notebook (`Main.ipynb`) that contains the main code for the project.
 
-## Dataset
+## Getting Started
 
-The dataset used for this project is the [Garbage Classification (12 classes) Dataset](https://www.kaggle.com/datasets/mostafaabla/garbage-classification) from Kaggle. It contains images of garbage, divided into twelve categories.
+1. Clone this repository to your local machine.
+2. Install the required dependencies listed in `requirements.txt`.
+3. Open the `Main.ipynb` Jupyter notebook and follow the instructions.
 
-## Model
+## Data Organization
 
-We used the EfficientNet-B4 model for this project. EfficientNet-B4 is a convolutional neural network that is pretrained on the ImageNet dataset. It is known for its efficiency and high performance on a variety of image classification tasks.
+Your data should be organized in the following structure:
 
-## Installation
-
-To run the code in this repository, you will need to install the required libraries. You can do this by running the following command:
-
-```bash
-pip install -r requirements.txt
+```
+├───Database
+│   ├───cache # This folder will be created by the program
+│   └───Data # Put all the folders with images here
+#       Example ⬎
+│       ├───battery
+│       ├───biological
+│       ├───brown-glass
+│       ...
+│       └───white-glass
 ```
 
-## Usage
+Each subfolder in the `Data` directory represents a class, and should contain the images for that class. For example, the `battery` folder should contain images of batteries, the `biological` folder should contain images of biological items, and so on.
 
-The main code for this project is in a Jupyter notebook named `Main.ipynb`. To run the notebook, use the following command:
+## READMEs in Folders
 
-```bash
-jupyter notebook Main.ipynb
-```
+Each folder contains a README file that explains the contents of the folder. Please read these files for more information about the data.
 
-## Results
+## Running the Code
 
-Our model achieved an accuracy of **98.45%** on the test set. This is a significant improvement over previous models, demonstrating the power of EfficientNet-B4 and PyTorch.
+To run the code, simply open the `Main.ipynb` Jupyter notebook and execute the cells in order.
 
+## Contributing
+
+Contributions are welcome! Please read the contributing guidelines before making any changes.
 
 ## License
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 <pre>
  Copyright (c) 2024 Aydin Hamedi
  
