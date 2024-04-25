@@ -7,13 +7,13 @@
 
 This repository provides a template for image classification projects using PyTorch. It includes a Jupyter notebook (`main.ipynb`) that contains the main code for the project.
 
-## Getting Started
+## 🚀 Getting Started
 
 1. Clone this repository to your local machine.
 2. Install the required dependencies listed in `requirements.txt`.
 3. Open the `main.ipynb` Jupyter notebook and follow the instructions.
 
-## Data Organization
+## 📂 Data Organization
 
 Your data should be organized in the following structure:
 
@@ -31,15 +31,15 @@ Your data should be organized in the following structure:
 
 Each subfolder in the `Data` directory represents a class, and should contain the images for that class. For example, the `battery` folder should contain images of batteries, the `biological` folder should contain images of biological items, and so on.
 
-## READMEs in Folders
+## 📃 READMEs in Folders
 
 Each folder contains a README file that explains the contents of the folder. Please read these files for more information about the data.
 
-## Running the Code
+## 📦 Running the Code
 
 To run the code, simply open the `main.ipynb` Jupyter notebook and execute the cells in order.
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please read the contributing guidelines before making any changes.
 
