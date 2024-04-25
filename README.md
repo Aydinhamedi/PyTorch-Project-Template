@@ -39,11 +39,6 @@ Each folder contains a README file that explains the contents of the folder. Ple
 
 To run the code, simply open the `main.ipynb` Jupyter notebook and execute the cells in order.
 
-## 🤝 Contributing
-
-Contributions are welcome! Please read the contributing guidelines before making any changes.
-
-
 ## 📚 Citing
 ```bib
 @software{Hamedi_PyTorch-Project-Template,
