@@ -1,4 +1,4 @@
-# Classification with PyTorch
+# Classification with PyTorch 
 
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/> <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white"/>  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/> 
 
@@ -6,6 +6,8 @@
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
 This repository provides a template for image classification projects using PyTorch. It includes a Jupyter notebook (`main.ipynb`) that contains the main code for the project.
+
+<h2>🚧 There's a new version coming... 🚧</h2>
 
 ## 🚀 Getting Started
 
